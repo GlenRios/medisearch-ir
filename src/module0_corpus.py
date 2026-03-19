@@ -28,7 +28,7 @@ from tqdm import tqdm
 # ---------------------------------------------------------------------------
 
 LANGUAGE        = "en"
-TARGET_ARTICLES = 15000
+TARGET_ARTICLES = 1500
 OUTPUT_DIR      = Path("data/raw")
 CORPUS_FILE     = OUTPUT_DIR / "corpus.json"
 STATS_FILE      = OUTPUT_DIR / "corpus_stats.json"
